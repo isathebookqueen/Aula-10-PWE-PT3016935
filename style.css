@@ -1,3 +1,4 @@
+/* style.css */
 html {
   height: 100%;
   width: 100%;
@@ -25,4 +26,15 @@ fieldset {
 }
 label {
   font-size: 1.2em; /* Increase font size */
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 1em;
+  /* Centraliza verticalmente os elementos */
+  align-items: center; 
+}
+ul li {
+    display: inline-block;
 }
